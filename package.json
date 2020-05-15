@@ -1,0 +1,16 @@
+{
+  "name": "code-expert-task-sv",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "github:ammut/codeExpertTask",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "dist/main.js data.json",
+    "build": "tsc -p .",
+    "watch:build": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "typescript": "^3.9.2"
+  }
+}
